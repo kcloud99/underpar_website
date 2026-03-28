@@ -36,7 +36,7 @@ export default function Hero() {
                         <img
                             alt="Architectural precision"
                             className="w-full h-full object-cover grayscale opacity-90 contrast-125"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSY0rkUIJB4F1oK1wQWrWEjSKk0Qh7DLuQAHHtL2VoYifCIV1FbKFZOiwYUr7-BaZtFRfsZ8CqZHmYWalTxF6LyU4AWXtpitfV-X7bEOaAt5ARcwbWAbsabqOVJkMgWQskKUMOEB_IXejC8BHpAvqfJjY2Y69vpBlY6Gs20SpSCv4FzaxwifwhzAkh57TuefJAxcMfaTn7GNYlTh1-ltWMnySdCBAolAedNdf6cy1Gm8RlPMYfwf4lP9UkJFgsO_RvPEMzviB-E-0K"
+                            src="/hero_bg.png"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-deep-forest/40 to-transparent" />
                     </div>

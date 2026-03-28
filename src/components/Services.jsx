@@ -4,8 +4,7 @@ const SERVICES = [
         icon: 'troubleshoot',
         title: 'Operational Audits',
         body: 'A forensic deep-dive into your current workflows to identify hidden leakages and automation potential.',
-        image:
-            'https://lh3.googleusercontent.com/aida-public/AB6AXuC4pYFJt_qfiWlmPf57HuJ9ObkV001VsCDWgNsMrOYEZdS1IALokeksy8Y8F5UI6S9YKWOmAePhlUwML-I-C_jlbV60hVtaHENNl5o2DV9T1uRb91V0-hJkZ_Mw9nF-DVpjYbgUPOodJzqddeqK8qioK79NEMGfiGj9EkBUdeJq8gKParfHvI6uRMMX2Gngzx1E5pEu_ZLMvWOYAI_g-1gmg8QU97uY1Evc2MyCj_DxWG-EInYdKsijDJTYiW0XxHirQ0pN2Ox0yaD4',
+        image: '/service_audit.png',
         imageAlt: 'Data visualization audit',
         dark: false,
     },
@@ -14,8 +13,7 @@ const SERVICES = [
         icon: 'psychology',
         title: 'Custom AI Implementation',
         body: 'Bespoke AI tools designed specifically for your operational DNA. No generic templates, only precision.',
-        image:
-            'https://lh3.googleusercontent.com/aida-public/AB6AXuB8MivBzf36W_XEsl7BlIqO7vja0TSEZeVgKQ5TqKEaaUOpTfAA8ptK1y_kSlOEpgQkXQGh--d7DSfSLKsBmSHTxgDhRgDVxrQI1pUR22cN624Jpe_6aNdIeOHoAdbYyeCmIqfJCFrKCYV3RJOAKMPMPUK3y7Q676-I5gBpBLH-hg4VT9shfwuqZ1tJWGiNO9ZYfCk33u20yG2FVwl7VcDHSI6gqEITB9JZRWZ1oiDtPjW4ZrzcxveUQHo5EQPuqoxvQedR57nL-gzx',
+        image: '/service_ai.png',
         imageAlt: 'Microchip precision',
         dark: true,
     },
@@ -24,8 +22,7 @@ const SERVICES = [
         icon: 'integration_instructions',
         title: 'Legacy Systems Integration',
         body: "We don't replace your history; we empower it. Unifying 20-year-old reliability with modern automation.",
-        image:
-            'https://lh3.googleusercontent.com/aida-public/AB6AXuAKSo9QaR2ARLbAJA4sV_dcqnHV9qh_nE1OtE1mVbuRA209T5iVvTjHPVAja1ZDltMu9x-0WZxyB-aD1PzvuLkv7n0YP2WG2HFZ-IJQveYiO6RfVWoDVQirKMOUAUbU3Wtdt_7-boDRP_VKF9lnBdzcpmQBPQYLiil98tbsn691wKhmVzOKwBfetqptKQfFgC-mDuqMz7MnT_-iRuBo1u6_Z46B-Fl9GxECFIYMO_e-8GyNGM2Xy9TtnpcBay-jCmmF57WhaNayyo2-',
+        image: '/service_integration.png',
         imageAlt: 'Technical bridge',
         dark: false,
     },
@@ -75,8 +72,8 @@ function ServiceCard({ s }) {
                 <img
                     alt={s.imageAlt}
                     className={`w-full h-full object-cover ${isDark
-                            ? 'grayscale brightness-110 contrast-125 mix-blend-screen'
-                            : 'grayscale brightness-90 contrast-125'
+                        ? 'grayscale brightness-110 contrast-125 mix-blend-screen'
+                        : 'grayscale brightness-90 contrast-125'
                         }`}
                     src={s.image}
                 />
