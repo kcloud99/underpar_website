@@ -8,24 +8,28 @@ const STEPS = [
         title: 'The Operational Audit',
         subtitle: 'The Walk-Through',
         goal: 'Goal: Identify \u2018High-Friction, Low-Value\u2019 tasks that drain your team\'s energy.',
+        metric: 'Most audits uncover 10\u201315 hours per week of automatable tasks within the first session.',
     },
     {
         num: '02',
         title: 'Blueprinting & Tool Selection',
         subtitle: 'The Strategy',
         goal: 'Goal: Create a \u2018Zero-Friction\u2019 architecture tailored to your unique workflow.',
+        metric: 'Actionable roadmap delivered within 2 weeks. Average clients see 3\u20135 high-impact automation opportunities.',
     },
     {
         num: '03',
         title: 'Deployment & Integration',
         subtitle: 'The Swing',
         goal: 'Goal: Turn the \u2018Manual\u2019 into \u2018Automatic\u2019 through seamless technical implementation.',
+        metric: 'Typical implementation takes 4\u20138 weeks. Most teams are fully self-sufficient within 2 weeks of handoff.',
     },
     {
         num: '04',
         title: 'Refinement & ROI',
         subtitle: 'The Scorecard',
         goal: 'Goal: Quantify measurable efficiency and reclaim hours for strategic leadership.',
+        metric: 'Clients typically reclaim 15\u201320 hours per week and see measurable ROI within 90 days.',
     },
 ]
 
@@ -159,9 +163,35 @@ export default function MethodologyPage() {
                                         <p className="font-body text-sm text-secondary leading-relaxed">
                                             {step.goal}
                                         </p>
+                                        <p className="font-body text-xs text-deep-forest/60 leading-relaxed mt-3 border-t border-deep-forest/5 pt-3">
+                                            <span className="material-symbols-outlined text-sm align-middle mr-1 text-primary-fixed">
+                                                trending_up
+                                            </span>
+                                            {step.metric}
+                                        </p>
                                     </div>
                                 </div>
                             ))}
+                        </div>
+
+                        {/* Engagement note */}
+                        <div className="mt-16 max-w-2xl mx-auto text-center">
+                            <div className="bg-gallery-white border border-deep-forest/8 p-8 rounded-sm inline-block">
+                                <p className="font-body text-secondary leading-relaxed">
+                                    <span className="material-symbols-outlined text-base align-middle mr-2 text-primary-fixed">
+                                        schedule
+                                    </span>
+                                    Most engagements begin with a{' '}
+                                    <span className="font-bold text-deep-forest">
+                                        complimentary operational audit
+                                    </span>{' '}
+                                    and deliver an actionable roadmap within{' '}
+                                    <span className="font-bold text-deep-forest">
+                                        2 weeks
+                                    </span>
+                                    .
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>

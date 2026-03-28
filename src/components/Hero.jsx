@@ -13,7 +13,9 @@ export default function Hero() {
                     </h1>
 
                     <p className="font-body text-lg md:text-xl text-secondary max-w-xl leading-relaxed mb-12 animate-fade-in-up animate-delay-200">
-                        Under Par Partners streamlines your operations with AI and automation, turning manual chaos into effortless efficiency.
+                        We help operations-heavy businesses in construction, trades, and
+                        industrial services streamline their workflows with AI and
+                        automation&mdash;turning manual chaos into effortless efficiency.
                     </p>
 
                     <div className="flex items-center gap-6 animate-fade-in-up animate-delay-300">
@@ -28,6 +30,10 @@ export default function Hero() {
                             Efficiency First
                         </span>
                     </div>
+
+                    <p className="font-label text-[10px] uppercase tracking-widest text-deep-forest/40 mt-8 animate-fade-in-up animate-delay-400">
+                        Trusted by teams across construction, manufacturing &amp; field services
+                    </p>
                 </div>
 
                 {/* Right — Image */}

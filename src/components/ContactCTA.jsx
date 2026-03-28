@@ -1,15 +1,22 @@
 import { useState } from 'react'
 
 const PAIN_OPTIONS = [
-    'Manual Data Entry',
-    'Legacy System Connectivity',
-    'Document Processing',
-    'Workflow Orchestration',
+    'Manual Data Entry & Redundant Input',
+    'Paper-Heavy Processes & Document Management',
+    'Reporting & Visibility (No Dashboards or KPIs)',
+    'Scheduling & Dispatch Coordination',
+    'Estimating & Bidding Bottlenecks',
+    'Legacy System Connectivity & Data Silos',
+    'Workflow Orchestration & Approvals',
+    'Inventory & Asset Tracking',
+    'Customer Communication & Follow-ups',
+    'Compliance & Safety Documentation',
     'Other',
 ]
 
 export default function ContactCTA() {
     const [submitted, setSubmitted] = useState(false)
+    const [selectedPain, setSelectedPain] = useState(PAIN_OPTIONS[0])
 
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -117,6 +124,8 @@ export default function ContactCTA() {
                             </label>
                             <select
                                 name="pain-point"
+                                value={selectedPain}
+                                onChange={(e) => setSelectedPain(e.target.value)}
                                 className="border-b border-white/20 bg-transparent py-2 px-0 focus:ring-0 focus:border-primary-fixed outline-none font-body text-gallery-white transition-colors duration-300"
                             >
                                 {PAIN_OPTIONS.map((opt) => (
@@ -129,13 +138,24 @@ export default function ContactCTA() {
 
                         <div className="flex flex-col gap-2">
                             <label className="font-label text-[10px] uppercase tracking-widest text-white/50">
-                                Additional Context (Optional)
+                                {selectedPain === 'Other'
+                                    ? 'Please Describe Your Challenge'
+                                    : 'Additional Context (Optional)'}
                             </label>
                             <textarea
                                 name="message"
-                                className="border border-white/10 bg-white/5 p-4 focus:ring-1 focus:ring-primary-fixed outline-none font-body text-gallery-white transition-colors duration-300 rounded-sm"
-                                placeholder="How can we help streamline your specific workflow?"
-                                rows="4"
+                                className={`border bg-white/5 p-4 focus:ring-1 focus:ring-primary-fixed outline-none font-body text-gallery-white transition-all duration-300 rounded-sm ${
+                                    selectedPain === 'Other'
+                                        ? 'border-primary-fixed/40 bg-white/8'
+                                        : 'border-white/10'
+                                }`}
+                                placeholder={
+                                    selectedPain === 'Other'
+                                        ? 'Tell us about the specific operational challenge you are facing...'
+                                        : 'How can we help streamline your specific workflow?'
+                                }
+                                rows={selectedPain === 'Other' ? 5 : 4}
+                                required={selectedPain === 'Other'}
                             />
                         </div>
 

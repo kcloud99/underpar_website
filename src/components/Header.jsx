@@ -24,7 +24,6 @@ export default function Header() {
     }, [menuOpen])
 
     const navLinks = [
-        { label: 'Services', href: '/#services' },
         { label: 'Methodology', href: '/methodology' },
         { label: 'The Partners', href: '/partners' },
     ]
