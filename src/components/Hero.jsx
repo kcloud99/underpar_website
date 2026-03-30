@@ -15,7 +15,8 @@ export default function Hero() {
                     <p className="font-body text-lg md:text-xl text-secondary max-w-xl leading-relaxed mb-12 animate-fade-in-up animate-delay-200">
                         We help operations-heavy businesses in construction, trades, and
                         industrial services streamline their workflows with AI and
-                        automation&mdash;turning manual chaos into effortless efficiency.
+                        automation&mdash;so your team can stop doing the computer&rsquo;s job
+                        and focus on the work that actually matters.
                     </p>
 
                     <div className="flex items-center gap-6 animate-fade-in-up animate-delay-300">

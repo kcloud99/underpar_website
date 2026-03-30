@@ -26,6 +26,7 @@ export default function Header() {
     const navLinks = [
         { label: 'Methodology', href: '/methodology' },
         { label: 'The Partners', href: '/partners' },
+        { label: 'Blog', href: '/blog' },
     ]
 
     return (

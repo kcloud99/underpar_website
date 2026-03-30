@@ -4,21 +4,21 @@ const PAIN_POINTS = [
         num: '01',
         label: 'Obsolete Workflows',
         title: 'Manual Data Entry',
-        body: 'Hours lost to repetitive keystrokes and human error. We replace the labor with liquid logic.',
+        body: 'Hours lost to repetitive keystrokes and human error. We replace the busywork with automated workflows that run without error.',
     },
     {
         icon: 'description',
         num: '02',
         label: 'Analog Friction',
         title: 'Paper-Heavy Processes',
-        body: 'Physical friction in a digital world. We digitize the workflow, maintaining the signature precision.',
+        body: 'Physical friction in a digital world. We digitize the workflow without losing what makes your process work.',
     },
     {
         icon: 'account_tree',
         num: '03',
         label: 'Tech Silos',
         title: 'Fragmented Systems',
-        body: "Software that doesn't speak to each other. We build the bridges that unify your data ecosystem.",
+        body: "Software that doesn't speak to each other. We connect your tools so data flows automatically between them.",
     },
 ]
 

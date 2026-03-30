@@ -56,9 +56,21 @@ export default function ContactCTA() {
                     </span>
                 </h2>
                 <p className="font-body text-gallery-white/70 text-base md:text-lg max-w-2xl mx-auto">
-                    Ready to trade manual chaos for effortless efficiency? Let&rsquo;s
-                    discuss a roadmap for your digital transformation.
+                    Tell us what&rsquo;s slowing your team down. We&rsquo;ll map out a
+                    plan to fix it&mdash;no jargon, no obligations.
                 </p>
+            </div>
+
+            {/* Free consultation badge */}
+            <div className="max-w-2xl mx-auto relative z-10 mb-6 flex justify-center">
+                <div className="inline-flex items-center gap-2 bg-primary-fixed/10 border border-primary-fixed/20 px-5 py-2.5 rounded-sm">
+                    <span className="material-symbols-outlined text-primary-fixed text-lg">
+                        schedule
+                    </span>
+                    <span className="font-label text-xs uppercase tracking-widest text-primary-fixed font-bold">
+                        Free 60-Minute Consultation
+                    </span>
+                </div>
             </div>
 
             {/* Form card — glassmorphism */}
@@ -72,7 +84,7 @@ export default function ContactCTA() {
                             We&rsquo;ll be in touch.
                         </p>
                         <p className="font-body text-sm text-gallery-white/60">
-                            Expect a response within one business day.
+                            Expect a response within 24 hours.
                         </p>
                     </div>
                 ) : (
@@ -106,16 +118,28 @@ export default function ContactCTA() {
                             </div>
                             <div className="flex flex-col gap-2">
                                 <label className="font-label text-[10px] uppercase tracking-widest text-white/50">
-                                    Work Email
+                                    Company Name
                                 </label>
                                 <input
-                                    name="email"
+                                    name="company"
                                     className="border-b border-white/20 bg-transparent py-2 px-0 focus:ring-0 focus:border-primary-fixed outline-none font-body text-gallery-white transition-colors duration-300"
-                                    placeholder="j.doe@company.com"
-                                    type="email"
-                                    required
+                                    placeholder="Acme Construction"
+                                    type="text"
                                 />
                             </div>
+                        </div>
+
+                        <div className="flex flex-col gap-2">
+                            <label className="font-label text-[10px] uppercase tracking-widest text-white/50">
+                                Work Email
+                            </label>
+                            <input
+                                name="email"
+                                className="border-b border-white/20 bg-transparent py-2 px-0 focus:ring-0 focus:border-primary-fixed outline-none font-body text-gallery-white transition-colors duration-300"
+                                placeholder="j.doe@company.com"
+                                type="email"
+                                required
+                            />
                         </div>
 
                         <div className="flex flex-col gap-2">

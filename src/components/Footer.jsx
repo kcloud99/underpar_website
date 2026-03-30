@@ -6,6 +6,7 @@ export default function Footer() {
     const links = [
         { label: 'Methodology', href: '/methodology' },
         { label: 'The Partners', href: '/partners' },
+        { label: 'Blog', href: '/blog' },
         { label: 'Privacy Policy', href: '/privacy' },
         { label: 'Terms of Service', href: '/terms' },
     ]
