@@ -21,14 +21,14 @@ export default function Footer() {
                         className="flex items-center gap-2 text-lg font-headline italic text-primary-fixed"
                     >
                         <img
-                            src="/up_icon.png"
+                            src="/lc_logo.png"
                             alt=""
                             className="w-6 h-6 object-contain opacity-90"
                         />
-                        Under Par Partners
+                        Looper &amp; Co.
                     </Link>
                     <p className="text-xs font-body uppercase tracking-[0.05em] text-gallery-white/40">
-                        &copy; {currentYear} Under Par Partners. Precision in Automation.
+                        &copy; {currentYear} Looper &amp; Co. Precision in Automation.
                     </p>
                 </div>
 
@@ -48,13 +48,13 @@ export default function Footer() {
                 {/* Email */}
                 <div className="flex flex-col items-center md:items-end gap-3">
                     <a
-                        href="mailto:hello@underparpartners.com"
+                        href="mailto:hello@looperandco.com"
                         className="text-xs font-body tracking-[0.05em] text-gallery-white/40 hover:text-primary-fixed transition-colors duration-300"
                     >
-                        hello@underparpartners.com
+                        hello@looperandco.com
                     </a>
                     <a
-                        href="mailto:hello@underparpartners.com"
+                        href="mailto:hello@looperandco.com"
                         className="w-10 h-10 flex items-center justify-center bg-white/5 rounded-full text-primary-fixed hover:bg-primary-fixed hover:text-deep-forest transition-all duration-300"
                     >
                         <span className="material-symbols-outlined">mail</span>

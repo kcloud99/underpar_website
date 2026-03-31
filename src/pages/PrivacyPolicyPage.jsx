@@ -29,8 +29,8 @@ export default function PrivacyPolicyPage() {
                                 Introduction
                             </h2>
                             <p className="font-body text-secondary leading-relaxed">
-                                Under Par Partners LLC (&ldquo;we,&rdquo; &ldquo;us,&rdquo;
-                                &ldquo;our&rdquo;) operates the website underparpartners.com.
+                                Looper &amp; Co. LLC (&ldquo;we,&rdquo; &ldquo;us,&rdquo;
+                                &ldquo;our&rdquo;) operates the website looperandco.com.
                                 This Privacy Policy explains how we collect, use, and protect
                                 information when you visit our website.
                             </p>
@@ -101,10 +101,10 @@ export default function PrivacyPolicyPage() {
                                 relationship or active inquiry. You may request deletion of
                                 your data at any time by emailing{' '}
                                 <a
-                                    href="mailto:hello@underparpartners.com"
+                                    href="mailto:hello@looperandco.com"
                                     className="text-deep-forest underline underline-offset-2 hover:text-primary-fixed transition-colors duration-300"
                                 >
-                                    hello@underparpartners.com
+                                    hello@looperandco.com
                                 </a>
                                 .
                             </p>
@@ -118,10 +118,10 @@ export default function PrivacyPolicyPage() {
                                 You may request access to, correction of, or deletion of your
                                 personal information at any time by contacting us at{' '}
                                 <a
-                                    href="mailto:hello@underparpartners.com"
+                                    href="mailto:hello@looperandco.com"
                                     className="text-deep-forest underline underline-offset-2 hover:text-primary-fixed transition-colors duration-300"
                                 >
-                                    hello@underparpartners.com
+                                    hello@looperandco.com
                                 </a>
                                 .
                             </p>
@@ -144,13 +144,13 @@ export default function PrivacyPolicyPage() {
                                 Contact
                             </h2>
                             <p className="font-body text-secondary leading-relaxed">
-                                Under Par Partners LLC
+                                Looper &amp; Co. LLC
                                 <br />
                                 <a
-                                    href="mailto:hello@underparpartners.com"
+                                    href="mailto:hello@looperandco.com"
                                     className="text-deep-forest underline underline-offset-2 hover:text-primary-fixed transition-colors duration-300"
                                 >
-                                    hello@underparpartners.com
+                                    hello@looperandco.com
                                 </a>
                             </p>
                         </div>

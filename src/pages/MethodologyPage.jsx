@@ -71,7 +71,7 @@ export default function MethodologyPage() {
                             Methodology
                         </span>
                         <h1 className="font-headline text-5xl md:text-7xl text-gallery-white leading-tight mb-6">
-                            The Under Par<br />
+                            The Looper<br />
                             <span className="serif-italic">Framework</span>
                         </h1>
                         <p className="font-body text-lg md:text-xl text-gallery-white/80 max-w-lg leading-relaxed italic">

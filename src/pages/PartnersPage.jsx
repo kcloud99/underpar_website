@@ -89,10 +89,10 @@ export default function PartnersPage() {
                     <div className="max-w-3xl mx-auto text-center">
                         <div className="border-l-2 border-primary-fixed pl-6 md:pl-8 py-2 text-left md:text-center md:border-0 md:pl-0">
                             <p className="font-headline text-3xl md:text-4xl text-gallery-white italic leading-relaxed mb-8">
-                                &ldquo;As avid golfers, we are obsessed with precision. On the
-                                green, a fraction of an inch is the difference between success
-                                and failure. We bring that same &lsquo;Under Par&rsquo;
-                                mentality to every automation project.&rdquo;
+                                &ldquo;In golf, a great looper doesn&rsquo;t just carry the bag&mdash;they
+                                read the course, anticipate challenges, and guide you to your
+                                best round. That&rsquo;s exactly how we approach your
+                                operations.&rdquo;
                             </p>
                             <span className="font-label text-xs uppercase tracking-widest text-gallery-white/50">
                                 Kyle &amp; Jason — Founding Partners

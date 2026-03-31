@@ -43,11 +43,11 @@ export default function Header() {
                     className="flex items-center gap-2 md:gap-3 text-xl md:text-2xl font-headline italic tracking-tighter text-deep-forest"
                 >
                     <img
-                        src="/up_icon.png"
-                        alt="Under Par Partners"
-                        className="w-8 h-8 md:w-10 md:h-10 object-contain drop-shadow-sm"
+                        src="/lc_logo.png"
+                        alt="Looper & Co."
+                        className="w-20 h-20 md:w-24 md:h-24 object-contain drop-shadow-sm"
                     />
-                    Under Par Partners
+                    {/* Looper &amp; Co. */}
                 </Link>
 
                 {/* Desktop nav links */}

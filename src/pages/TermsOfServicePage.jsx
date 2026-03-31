@@ -29,8 +29,8 @@ export default function TermsOfServicePage() {
                                 Agreement to Terms
                             </h2>
                             <p className="font-body text-secondary leading-relaxed">
-                                These Terms of Service govern your use of the Under Par
-                                Partners LLC website at underparpartners.com. By accessing or
+                                These Terms of Service govern your use of the Looper &amp; Co.
+                                LLC website at looperandco.com. By accessing or
                                 using this website, you agree to be bound by these terms. If
                                 you do not agree, please do not use the website.
                             </p>
@@ -54,7 +54,7 @@ export default function TermsOfServicePage() {
                             </h2>
                             <p className="font-body text-secondary leading-relaxed">
                                 All content on this website, including text, images, design,
-                                logos, and branding, is the property of Under Par Partners LLC
+                                logos, and branding, is the property of Looper &amp; Co. LLC
                                 and is protected by applicable intellectual property laws. You
                                 may not reproduce, distribute, or create derivative works from
                                 this content without our prior written consent.
@@ -67,7 +67,7 @@ export default function TermsOfServicePage() {
                             </h2>
                             <p className="font-body text-secondary leading-relaxed">
                                 By submitting our contact form, you consent to being contacted
-                                by Under Par Partners regarding your inquiry. You represent
+                                by Looper &amp; Co. regarding your inquiry. You represent
                                 that the information you provide is accurate and that you have
                                 the authority to share it.
                             </p>
@@ -91,7 +91,7 @@ export default function TermsOfServicePage() {
                                 Limitation of Liability
                             </h2>
                             <p className="font-body text-secondary leading-relaxed">
-                                Under Par Partners LLC provides this website &ldquo;as
+                                Looper &amp; Co. LLC provides this website &ldquo;as
                                 is&rdquo; without warranties of any kind, either express or
                                 implied. We shall not be liable for any damages arising from
                                 your use of or inability to use this website, including but
@@ -128,13 +128,13 @@ export default function TermsOfServicePage() {
                                 Contact
                             </h2>
                             <p className="font-body text-secondary leading-relaxed">
-                                Under Par Partners LLC
+                                Looper &amp; Co. LLC
                                 <br />
                                 <a
-                                    href="mailto:hello@underparpartners.com"
+                                    href="mailto:hello@looperandco.com"
                                     className="text-deep-forest underline underline-offset-2 hover:text-primary-fixed transition-colors duration-300"
                                 >
-                                    hello@underparpartners.com
+                                    hello@looperandco.com
                                 </a>
                             </p>
                         </div>

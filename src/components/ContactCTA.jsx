@@ -31,7 +31,7 @@ export default function ContactCTA() {
             })
             setSubmitted(true)
         } catch {
-            alert('Something went wrong. Please try again or email us directly at hello@underparpartners.com.')
+            alert('Something went wrong. Please try again or email us directly at hello@looperandco.com.')
         }
     }
 
