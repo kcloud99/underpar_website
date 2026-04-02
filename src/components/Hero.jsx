@@ -33,7 +33,7 @@ export default function Hero() {
                     </div>
 
                     <p className="font-label text-[10px] uppercase tracking-widest text-deep-forest/40 mt-8 animate-fade-in-up animate-delay-400">
-                        Trusted by teams across construction, manufacturing &amp; field services
+                        Based in Bend, Oregon · Serving teams across construction, manufacturing &amp; field services
                     </p>
                 </div>
 

@@ -30,6 +30,9 @@ export default function Footer() {
                     <p className="text-xs font-body uppercase tracking-[0.05em] text-gallery-white/40">
                         &copy; {currentYear} Looper &amp; Co. Precision in Automation.
                     </p>
+                    <address className="not-italic text-xs font-body uppercase tracking-[0.05em] text-gallery-white/40 mt-1">
+                        Bend, Oregon
+                    </address>
                 </div>
 
                 {/* Links */}
