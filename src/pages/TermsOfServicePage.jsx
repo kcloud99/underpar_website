@@ -1,9 +1,15 @@
+import { Helmet } from 'react-helmet-async'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 export default function TermsOfServicePage() {
     return (
         <>
+            <Helmet>
+                <title>Terms of Service | Looper & Co.</title>
+                <meta name="description" content="Terms of Service for Looper & Co. LLC." />
+                <link rel="canonical" href="https://looperandco.com/terms" />
+            </Helmet>
             <Header />
             <main>
                 {/* Hero */}

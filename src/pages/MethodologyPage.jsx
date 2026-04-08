@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -54,6 +55,11 @@ const STANDARDS = [
 export default function MethodologyPage() {
     return (
         <>
+            <Helmet>
+                <title>Our Methodology | Looper & Co.</title>
+                <meta name="description" content="Discover the Looper Framework: a disciplined, human-first approach to operations automation, tool selection, and ROI for your business." />
+                <link rel="canonical" href="https://looperandco.com/methodology" />
+            </Helmet>
             <Header />
             <main>
                 {/* Hero */}

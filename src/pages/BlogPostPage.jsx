@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import Markdown from 'react-markdown'
+import { Helmet } from 'react-helmet-async'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -50,6 +51,9 @@ export default function BlogPostPage() {
     if (!post) {
         return (
             <>
+                <Helmet>
+                    <title>Post Not Found | Looper & Co.</title>
+                </Helmet>
                 <Header />
                 <main className="bg-gallery-white min-h-[60vh] flex items-center justify-center px-6">
                     <div className="text-center">
@@ -68,6 +72,11 @@ export default function BlogPostPage() {
 
     return (
         <>
+            <Helmet>
+                <title>{meta.title ? `${meta.title} | Looper & Co.` : 'Blog Post | Looper & Co.'}</title>
+                <meta name="description" content={meta.excerpt || "Read this article from Looper & Co."} />
+                <link rel="canonical" href={`https://looperandco.com/blog/${slug}`} />
+            </Helmet>
             <Header />
             <main>
                 {/* Post header */}

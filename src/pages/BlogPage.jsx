@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -55,6 +56,11 @@ export default function BlogPage() {
 
     return (
         <>
+            <Helmet>
+                <title>Blog | Looper & Co.</title>
+                <meta name="description" content="Insights and practical takes on AI, automation, and operations for construction, trades, and industrial services." />
+                <link rel="canonical" href="https://looperandco.com/blog" />
+            </Helmet>
             <Header />
             <main>
                 {/* Hero */}

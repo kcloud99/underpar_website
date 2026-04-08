@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -20,6 +21,11 @@ const PARTNERS = [
 export default function PartnersPage() {
     return (
         <>
+            <Helmet>
+                <title>Our Partners | Looper & Co.</title>
+                <meta name="description" content="Meet the Partners at Looper & Co. Operations veterans turned technology builders who speak the language of business first and code second." />
+                <link rel="canonical" href="https://looperandco.com/partners" />
+            </Helmet>
             <Header />
             <main>
                 {/* Hero */}
