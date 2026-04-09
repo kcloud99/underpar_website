@@ -13,6 +13,11 @@ export default function HowItWorks() {
                         No long sales cycles. No bloated proposals. Just a clear path from
                         operational friction to measurable results.
                     </p>
+                    <p className="font-body text-secondary/80 text-base leading-relaxed mt-3">
+                        If you&rsquo;re dealing with a data or technology problem, it can be
+                        solved. We&rsquo;re here to help you figure out which ones are worth
+                        solving first.
+                    </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
@@ -60,7 +65,8 @@ export default function HowItWorks() {
                         </h3>
                         <p className="font-body text-sm text-secondary leading-relaxed">
                             Typical engagements run 4 to 12 weeks. We build, integrate, and
-                            hand off with full team training and documentation.
+                            hand off with full team training&mdash;designed so your team is
+                            comfortable from day one, not overwhelmed by something new.
                         </p>
                     </div>
                 </div>

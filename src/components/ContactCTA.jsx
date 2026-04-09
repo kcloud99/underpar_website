@@ -56,8 +56,9 @@ export default function ContactCTA() {
                     </span>
                 </h2>
                 <p className="font-body text-gallery-white/70 text-base md:text-lg max-w-2xl mx-auto">
-                    Tell us what&rsquo;s slowing your team down. We&rsquo;ll map out a
-                    plan to fix it&mdash;no jargon, no obligations.
+                    Whatever&rsquo;s slowing your team down, there&rsquo;s a way to make
+                    it better. Tell us about it and we&rsquo;ll help you decide if it&rsquo;s
+                    worth solving&mdash;no jargon, no obligations.
                 </p>
             </div>
 

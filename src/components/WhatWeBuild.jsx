@@ -92,6 +92,10 @@ export default function WhatWeBuild() {
                         Bespoke AI Solutions That Deliver{' '}
                         <span className="serif-italic">Results</span>
                     </h2>
+                    <p className="font-body text-secondary text-base md:text-lg leading-relaxed mt-4 max-w-2xl">
+                        Every solution is designed to simplify your team&rsquo;s work&mdash;not
+                        add another system to manage.
+                    </p>
                 </div>
 
                 <div className="max-w-6xl mx-auto space-y-6 md:space-y-8">

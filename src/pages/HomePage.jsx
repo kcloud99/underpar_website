@@ -7,6 +7,7 @@ import LooperExplainer from '../components/LooperExplainer'
 import WhatWeBuild from '../components/WhatWeBuild'
 import Training from '../components/Training'
 import HowItWorks from '../components/HowItWorks'
+import Pricing from '../components/Pricing'
 import ContactCTA from '../components/ContactCTA'
 import Footer from '../components/Footer'
 
@@ -27,6 +28,7 @@ export default function HomePage() {
                 <WhatWeBuild />
                 <Training />
                 <HowItWorks />
+                <Pricing />
                 <ContactCTA />
             </main>
             <Footer />

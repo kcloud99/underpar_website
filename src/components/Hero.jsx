@@ -12,11 +12,18 @@ export default function Hero() {
                         You <span className="serif-italic">weren&rsquo;t</span> meant to do the computer&rsquo;s job.
                     </h1>
 
-                    <p className="font-body text-lg md:text-xl text-secondary max-w-xl leading-relaxed mb-12 animate-fade-in-up animate-delay-200">
+                    <p className="font-body text-lg md:text-xl text-secondary max-w-xl leading-relaxed mb-6 animate-fade-in-up animate-delay-200">
                         We help operations-heavy businesses in construction, trades, and
                         industrial services streamline their workflows with AI and
                         automation&mdash;so your team can stop doing the computer&rsquo;s job
-                        and focus on the work that actually matters.
+                        and focus on the work that actually matters. No complicated new
+                        systems to learn. No disruption to what&rsquo;s already working.
+                    </p>
+
+                    <p className="font-body text-base text-secondary/80 max-w-xl leading-relaxed mb-12 animate-fade-in-up animate-delay-200">
+                        Every operational problem has a solution that&rsquo;s faster, easier,
+                        and cheaper than what you&rsquo;re doing now&mdash;the only question
+                        is whether it&rsquo;s worth solving.
                     </p>
 
                     <div className="flex items-center gap-6 animate-fade-in-up animate-delay-300">
